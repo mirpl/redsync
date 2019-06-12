@@ -5,7 +5,7 @@ import (
 	"encoding/base64"
 	"time"
 
-	"github.com/gomodule/redigo/redis"
+	"github.com/garyburd/redigo/redis"
 )
 
 // A DelayFunc is used to decide the amount of time to wait between retries.
